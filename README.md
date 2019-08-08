@@ -6,12 +6,9 @@ Refer to this Guide for the details:
 Framebuffer patching in Mojave
 Binary patching framebuffers using KextsToPatch in Clover is no longer a viable method in Mojave. Now you need to use Lilu + WhateverGreen.
 
-`Intel HD 4400 Graphics patching as Intel HD 4600!
+```Intel HD 4400 Graphics patching as Intel HD 4600!
 VGA port don't work! To connect a monitor need DVI-D.
-`
-
-
-<https://www.tonymacx86.com/threads/stable-lenovo-e560-full-work.248842/>
+```
 
 <table>
 <tr>
@@ -81,3 +78,5 @@ VGA port don't work! To connect a monitor need DVI-D.
 ![H81M-E](screenshot/7.png)
 ![H81M-E](screenshot/10.png)
 ![H81M-E](screenshot/11.png)
+![H81M-E](screenshot/13.png)
+![H81M-E](screenshot/14.png)
