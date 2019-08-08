@@ -98,9 +98,9 @@
 			<key>Generate</key>
 			<dict>
 				<key>APLF</key>
-				<true/>
+				<false/>
 				<key>APSN</key>
-				<true/>
+				<false/>
 				<key>CStates</key>
 				<true/>
 				<key>PStates</key>
