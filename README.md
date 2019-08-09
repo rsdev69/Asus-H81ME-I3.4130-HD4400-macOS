@@ -3,6 +3,9 @@
 This repo contains the files and scripts to install macOS on the ASUS H81M-E.
 Refer to this Guide for the details:
 
+https://www.tonymacx86.com/threads/stable-asus-h81m-e-i3-4130-intel-hd4400-8gb-ram-120gb-ssd-mojave-10-14-6.281963/
+
+
 Framebuffer patching in Mojave
 Binary patching framebuffers using KextsToPatch in Clover is no longer a viable method in Mojave. Now you need to use Lilu + WhateverGreen.
 
