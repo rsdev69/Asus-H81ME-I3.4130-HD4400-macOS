@@ -12,6 +12,17 @@ Binary patching framebuffers using KextsToPatch in Clover is no longer a viable 
 VGA port don't work! To connect a monitor need DVI-D.
 ```
 
+BIOS settings:
+
+- CSM(Compability Support Module): Disabled
+- iGPU Memory: 96MB
+- CPU MSR Lock: Disabled
+- Sata Configuration: AHCI
+- USB Mode: Smart Auto
+- Fast Boot: Disabled
+- Secure Boot: Other OS
+- Intel RapidStart/SmartConnect: Disabled
+
 <table>
 <tr>
   <th>DESCRIPTION</th>
