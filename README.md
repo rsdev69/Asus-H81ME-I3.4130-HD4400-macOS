@@ -1,6 +1,6 @@
 # Asus-H81ME-I3.4130-HD4400-macOS
 
-This repo contains the files and scripts to install macOS on the ASUS H81M-E.
+This repo contains the files and scripts to install macOS on the ASUS H81M-E + i3/i5/i7 Processor + HD 4400/4600 HD Graphics.
 Refer to this Guide for the details:
 
 [tonymacx86/asus-h81m-e-i3-4130](https://www.tonymacx86.com/threads/stable-asus-h81m-e-i3-4130-intel-hd4400-8gb-ram-120gb-ssd-mojave-10-14-6.281963/)
