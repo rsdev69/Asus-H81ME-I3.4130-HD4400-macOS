@@ -115,7 +115,7 @@
 		<key>Arguments</key>
 		<string>kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>Think</string>
 		<key>Fast</key>
 		<true/>
 		<key>IgnoreNVRAMBoot</key>
@@ -399,7 +399,7 @@
 		<key>KernelCpu</key>
 		<true/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
