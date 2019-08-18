@@ -1,8 +1,12 @@
 # Asus-H81ME-I3.4130-HD4400-macOS
 
 This repo contains the files and scripts to install macOS on the ASUS H81M-E + i3/i5/i7 Processor + 4400/4600 HD Graphics.
-Refer to this Guide for the details:
 
+I have tested the work on such versions 10.11, 10.12, 10.13, 10.14
+The best way macOS 10.13 High Sierra. All work great.
+macOS 10.14 macOS Mojave have problem with display fonts and graphics problems as slows down when taking a screenshot for example.
+
+Refer to this Guide for the details:
 [tonymacx86/asus-h81m-e-i3-4130](https://www.tonymacx86.com/threads/stable-asus-h81m-e-i3-4130-intel-hd4400-8gb-ram-120gb-ssd-mojave-10-14-6.281963/)
 
 Framebuffer patching in Mojave
@@ -56,12 +60,12 @@ BIOS settings:
 </tr>
 <tr>
   <td>Lan</td>
-  <td>Realtek</td>
+  <td>Realtek RTL8168G/8111G</td>
   <td>YES</td>
 </tr>
 <tr>
   <td>Audio</td>
-  <td>13</td>
+  <td>High Definition Audio</td>
   <td>YES</td>
 </tr>
 <tr>
@@ -81,6 +85,7 @@ BIOS settings:
 </tr>
 </table>
 
+![H81M-E](screenshot/666.png)
 ![H81M-E](screenshot/1.png)
 ![H81M-E](screenshot/12.png)
 ![H81M-E](screenshot/2.png)
