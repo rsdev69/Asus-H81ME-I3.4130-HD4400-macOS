@@ -97,10 +97,6 @@
 		<dict>
 			<key>Generate</key>
 			<dict>
-				<key>APLF</key>
-				<false/>
-				<key>APSN</key>
-				<false/>
 				<key>CStates</key>
 				<true/>
 				<key>PStates</key>
@@ -115,19 +111,11 @@
 		<key>Arguments</key>
 		<string>kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
-		<string>Think</string>
+		<string>Mac</string>
 		<key>Fast</key>
 		<true/>
-		<key>IgnoreNVRAMBoot</key>
-		<false/>
-		<key>Log</key>
-		<false/>
 		<key>NeverHibernate</key>
 		<true/>
-		<key>NoEarlyProgress</key>
-		<false/>
-		<key>Secure</key>
-		<false/>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -380,15 +368,7 @@
 			<string>Recovery</string>
 		</array>
 		<key>Theme</key>
-		<string>Asus</string>
-	</dict>
-	<key>Graphics</key>
-	<dict>
-		<key>Inject</key>
-		<dict>
-			<key>Intel</key>
-			<false/>
-		</dict>
+		<string>ThinkPad</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -398,33 +378,29 @@
 		<true/>
 		<key>KernelCpu</key>
 		<true/>
-		<key>KernelPm</key>
-		<false/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>disable port limit in XHCI kext (credit PMHeart)</string>
+				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				g/sPD4MDBQAA
+				AEFQUExFIFNTRAA=
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
 				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				g/sPkJCQkJCQ
+				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB Port Limit Patch 1 ©PMHeart</string>
+				<string>USB Port Limit Patch#1 10.14.4 ©PMHeart</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -444,7 +420,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB Port Limit Patch 2 ©PMHeart</string>
+				<string>USB Port Limit Patch#2 10.14.4 ©PMHeart</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -464,7 +440,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB Port Limit Patch 3 ©PMHeart</string>
+				<string>USB Port Limit Patch#3 10.14.4 ©PMHeart</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -480,42 +456,6 @@
 				<key>Replace</key>
 				<data>
 				g+M/0+NBCd8=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for non-Apple SSDs</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Intel HD #1: patch boot logo 10.10.x - 10.11.x</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQAAdRc=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>IOGraphicsFamily</string>
-				<key>Replace</key>
-				<data>
-				AQAA6xc=
 				</data>
 			</dict>
 		</array>
